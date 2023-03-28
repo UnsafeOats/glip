@@ -21,7 +21,7 @@ impl Os {
     }
 }
 
-struct GlobalClip;
+pub struct GlobalClip;
 
 impl GlobalClip {
     pub fn set(val: &str) -> Result<()> {
